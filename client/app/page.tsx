@@ -2,6 +2,7 @@ import { Header } from "@/components/header"
 import { Hero } from "@/components/hero"
 import { AboutCounselor } from "@/components/about-counselor"
 import { Benefits } from "@/components/benefits"
+import { VisaApplicationCTA } from "@/components/visa-application-cta"
 import { Booking } from "@/components/booking"
 import { Testimonials } from "@/components/testimonials"
 import { FAQ } from "@/components/faq"
@@ -15,7 +16,8 @@ export default function Home() {
       <Hero />
       <AboutCounselor />
       <Benefits />
-      <Booking />
+      <VisaApplicationCTA />
+      {/* <Booking /> */}
       <Testimonials />
       <FAQ />
       <FinalCTA />
